@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="theexpanse"
+version="${version}"
+displayName="The Expanse"
+description='''
+The Expanse overworld world-generation overhaul bundled as a built-in data pack.
+'''
+
+[[dependencies.theexpanse]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.theexpanse]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.6)"
+ordering="NONE"
+side="BOTH"
