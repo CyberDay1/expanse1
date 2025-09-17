@@ -12,7 +12,8 @@ import net.neoforged.neoforge.event.AddPackFindersEvent;
 
 @Mod.EventBusSubscriber(modid = ExpanseMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public final class ExpanseBuiltInPacks {
-    private static final ResourceLocation BUILTIN_PACK_ID = ExpanseMod.id("theexpanse");
+    private static final ResourceLocation BUILTIN_PACK_ID =
+        ResourceLocation.fromNamespaceAndPath(ExpanseMod.MOD_ID, "theexpanse");
     private static final Component BUILTIN_TITLE = Component.literal("The Expanse");
 
     private ExpanseBuiltInPacks() {
