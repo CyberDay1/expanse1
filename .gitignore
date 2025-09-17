@@ -1,0 +1,6 @@
+.gradle/
+build/
+run/
+
+# Keep the wrapper binary untracked; generate locally with `gradle wrapper`.
+gradle/wrapper/gradle-wrapper.jar
